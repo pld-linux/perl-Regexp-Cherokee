@@ -8,12 +8,12 @@
 Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
 Summary(pl):	Regexp::Cherokee - obs³uga wyra¿eñ regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
-Version:	0.02
+Version:	0.03
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f1cc6c686c64e67a0c3d35cef0cbd900
+# Source0-md5:	ae8d5220635ff420e5b3a711d792478e
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
