@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Cherokee
+%define		pdir	Regexp
+%define		pnam	Cherokee
 Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
 Summary(pl):	Regexp::Cherokee - obs³uga wyra¿eñ regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
