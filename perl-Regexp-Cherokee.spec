@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Regexp
 %define	pnam	Cherokee
-Summary:	Regexp::Cherokee - Regular Expressions support for Cherokee Script
+Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
 Summary(pl):	Regexp::Cherokee - obs³uga wyra¿eñ regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
 Version:	0.02
