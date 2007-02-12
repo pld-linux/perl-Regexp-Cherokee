@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Cherokee
 Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
-Summary(pl):	Regexp::Cherokee - obs≥uga wyraøeÒ regularnych dla pisma Cherokee
+Summary(pl.UTF-8):   Regexp::Cherokee - obs≈Çuga wyra≈ºe≈Ñ regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
 Version:	0.03
 Release:	1
@@ -25,11 +25,11 @@ definitions for working with the Cherokee syllabary. The character
 classes provided by the Regexp::Cherokee package correspond to inate
 properties of the script and are language independent.
 
-%description -l pl
-Modu≥ Regexp::Cherokee dostarcza definicje klas znakÛw w stylu POSIX
-dzia≥aj±ce z pismem sylabicznym Cherokee. Klasy znakÛw dostarczone
-przez pakiet Regexp::Cherokee odpowiadaj± w≥asno∂ciom pisma i s±
-niezaleøne od jÍzyka.
+%description -l pl.UTF-8
+Modu≈Ç Regexp::Cherokee dostarcza definicje klas znak√≥w w stylu POSIX
+dzia≈ÇajƒÖce z pismem sylabicznym Cherokee. Klasy znak√≥w dostarczone
+przez pakiet Regexp::Cherokee odpowiadajƒÖ w≈Çasno≈õciom pisma i sƒÖ
+niezale≈ºne od jƒôzyka.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
