@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Cherokee
 Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
-Summary(pl.UTF-8):   Regexp::Cherokee - obsługa wyrażeń regularnych dla pisma Cherokee
+Summary(pl.UTF-8):	Regexp::Cherokee - obsługa wyrażeń regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
 Version:	0.03
 Release:	1
