@@ -9,7 +9,7 @@ Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
 Summary(pl.UTF-8):	Regexp::Cherokee - obsługa wyrażeń regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
 Version:	0.03
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
