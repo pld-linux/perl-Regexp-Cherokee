@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Cherokee
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Cherokee - regular expressions support for Cherokee Script
 Summary(pl.UTF-8):	Regexp::Cherokee - obsługa wyrażeń regularnych dla pisma Cherokee
 Name:		perl-Regexp-Cherokee
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ae8d5220635ff420e5b3a711d792478e
+URL:		http://search.cpan.org/dist/Regexp-Cherokee/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -47,7 +48,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-install examples/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p examples/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
